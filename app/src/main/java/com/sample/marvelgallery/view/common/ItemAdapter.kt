@@ -1,6 +1,6 @@
 package com.sample.marvelgallery.view.common
 
-import android.support.annotation.LayoutRes
+import androidx.annotation.LayoutRes
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 

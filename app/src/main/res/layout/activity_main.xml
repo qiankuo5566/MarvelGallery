@@ -8,9 +8,9 @@
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
         android:background="@android:color/white"
-        tools:context=".MainActivity">
+        tools:context=".view.main.MainActivity">
 
-    <android.support.v4.widget.SwipeRefreshLayout
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
             android:id="@+id/swipeRefreshView"
             android:layout_width="match_parent"
             android:layout_height="match_parent" android:layout_alignParentBottom="true"
@@ -23,7 +23,7 @@
 
         </androidx.recyclerview.widget.RecyclerView>
 
-    </android.support.v4.widget.SwipeRefreshLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
     <TextView
             android:layout_width="match_parent"
